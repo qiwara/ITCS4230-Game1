@@ -36,10 +36,10 @@
   "name":"Game1",
   "resources":[
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"obj_tiles","path":"objects/obj_tiles/obj_tiles.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_playerPlaceholder","path":"sprites/spr_playerPlaceholder/spr_playerPlaceholder.yy",},},
     {"id":{"name":"spr_tilePlaceholder","path":"sprites/spr_tilePlaceholder/spr_tilePlaceholder.yy",},},
+    {"id":{"name":"tile_basic","path":"tilesets/tile_basic/tile_basic.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",

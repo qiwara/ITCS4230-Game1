@@ -1,5 +1,7 @@
 // Gravity
+if (y_speed < max_y_speed) {
 y_speed += 0.2;
+}
 
 //X Speed set to 0 if no movement keys are pressed
 x_speed = 0;
@@ -14,6 +16,11 @@ if (keyboard_check(ord("A")) or keyboard_check(vk_left)) {
 }
 if (keyboard_check(ord("D")) or keyboard_check(vk_right)) {
 	x_speed = +3;
+}
+if (keyboard_check(ord("S")) or keyboard_check(vk_down) ) {
+	if (y_speed < max_y_speed) {
+	y_speed += 1;
+	}
 }
 
 // Jumping

@@ -1,5 +1,5 @@
 // Gravity
-y_speed += 0.1;
+y_speed += 0.2;
 
 //X Speed set to 0 if no movement keys are pressed
 x_speed = 0;
@@ -20,7 +20,7 @@ if (keyboard_check(ord("D")) or keyboard_check(vk_right)) {
 if place_meeting(x, y+1, tilemap) {
 	y_speed = 0;
 	if (keyboard_check(vk_space)) {
-		y_speed = -5;
+		y_speed = -7;
 	}
 }
 
